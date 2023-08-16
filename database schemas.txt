@@ -1,0 +1,25 @@
+Table: book
+Columns:
+id int AI PK 
+author varchar(255) 
+category varchar(255) 
+description varchar(255) 
+enable varchar(255) 
+name varchar(255) 
+price int
+
+
+Table: reviews
+Columns:
+id int AI PK 
+bname varchar(255) 
+rating int 
+review varchar(255) 
+uname varchar(255)
+
+
+Table: user
+Columns:
+email varchar(255) PK 
+name varchar(255) 
+password varchar(255)
